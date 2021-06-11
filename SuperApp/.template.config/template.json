@@ -1,0 +1,13 @@
+{
+ "$schema": "http://json.schemastore.org/template", // schema which can be placed to schema validation to get the intellicence for the file
+ "author": "Vitalii Honcharuk",  // you can replace with your name
+ "classifications": [ "Common", "Console", "SuperApp" ],  // used to add more info to the console output when checking installed templates
+ "identity": "SuperApp.ConsoleTemplate.CSharp",  // unique name
+ "name": "Super hello world app", // full name for the template
+ "shortName": "shwa", // short name for the template to simplify usage
+ "tags": {
+ "language": "C#"
+ },
+ "sourceName": "SuperApp", // value which will be replaced across the whole template to the new name provided by the user
+ "preferNameDirectory": true
+}
